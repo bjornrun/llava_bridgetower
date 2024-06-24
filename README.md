@@ -1,6 +1,8 @@
 # llava_bridgetower
 Code for a combined Llava and BridgeTower REST API server for Intel Gaudi 2 
 
+[Read about how to use it here](https://runaker.medium.com/enhancing-mixtral-8x22b-with-vision-an-on-premises-solution-for-intel-gaudi-21222c286194)
+
 NOTE: tested on SynapseAI 1.16.1
 
 # Setup:
