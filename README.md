@@ -13,7 +13,7 @@ cd optimum-habana/
 # Start the container with the correct environment
 ```
 docker run -it --runtime=habana -e HABANA_VISIBLE_DEVICES=all -e OMPI_MCA_btl_vader_single_copy_mechanism=none --cap-add=sys_nice --net=host --ipc=host -v $(pwd):/workspace -v /data/$USER:/root vault.habana.ai/gaudi-docker/1.16.2/ubuntu22.04/habanalabs/pytorch-installer-2.2.2:latest
-cd /workspace/
+cd /workspace/optimum-habana
 pip install -e .
 pip install flask
 ```
